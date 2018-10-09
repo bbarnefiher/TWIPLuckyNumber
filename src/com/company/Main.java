@@ -13,11 +13,11 @@ public class Main {
         Scanner stringReader = new Scanner(System.in);
 
 
-        perfectRandom luckyNumber = new perfectRandom();
-        luckyNumber.userName = stringReader.nextLine();
+        perfectRandom userData = new perfectRandom();
+        userData.userName = stringReader.nextLine();
 
 
-        System.out.println("Nice to meet you " + luckyNumber.userName + "! Your lucky number is " + luckyNumber.perfectRandom() + ".");
+        System.out.println("Nice to meet you " + userData.userName + "! Your lucky number is " + userData.perfectRandom() + ".");
 
 
 
